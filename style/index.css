@@ -1,0 +1,224 @@
+
+.top{
+   display: flex;
+   gap: 0px 120px;  
+   background-color: #522258;
+   height: 20px;
+   padding-left: 240px;
+   padding-bottom: 22px;
+   color: #FFFF;
+   
+   
+}
+
+*hero{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-bar{
+    display: flex;
+    margin-left: 45px;
+    color: #117554;
+    padding: 0px 55px;
+}
+
+.nav-bar ul{
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+    font-weight: 20px;
+    color: #117554;
+    
+}
+
+.nav-bar1>ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45px;
+    margin-top: 20px;
+    gap: 75px;
+    margin-left: 400px;
+   
+   
+}
+
+.hi{
+    display: inline-block;
+    font-size: 65px;
+    padding-left: 0px;
+    margin-right: 20px;
+    margin-left: 100px;
+    margin-bottom: -21px;
+    padding-top: 30px;
+    
+}
+.let{
+    display: inline-block;
+    font-size: 35px;
+    padding-left: 0px;
+    margin-right: 20px;
+    margin-left: 100px;
+    margin-bottom: -21px;
+    padding-top: 15px;
+}
+.passion{
+    padding: 0px 90px;  
+    color: #AF1740;
+    padding-top: 15px;
+}
+
+/* #hire{
+    padding-top: 0px;
+    
+} */
+
+.my-img{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.hire-container{
+background-color: #FBFBFB;
+color: #522258;
+padding: 0px 85px;
+
+}
+
+
+button{
+    margin-top: 0%;
+    padding: 10px 10px;
+    margin-left: 27px;
+    padding-right: 20px;
+    background-color: #522258;
+    color: #FBFBFB;
+    
+}
+
+.me-img{
+    width: fit-content;
+    height: 90px;
+}
+#hire{
+    margin-left: 68px;
+    color: #FBFBFB;
+    justify-content: space-between;
+    
+}
+
+#hire a{
+    text-decoration: none;
+    font-weight: 20px;
+    color: #FBFBFB;
+    
+}
+
+/* media queries  */
+
+@media (max-width: 768px) { /* Tablet */
+    .hero {
+        flex-direction: column; /* Stack items vertically */
+        padding: 30px;
+    }
+
+    .hero img {
+        width: 80%; /* Adjust image size */
+    }
+}
+
+@media (max-width: 480px) { /* Mobile */
+    .hero {
+        padding: 20px;
+    }
+
+    .hero img {
+        width: 100%; /* Full-width for small screens */
+    }
+}
+
+/* about */
+
+
+#about{
+    margin-top: 200px;
+    background-color: #FEFEFE;
+    
+}
+
+.head-section  ul{
+    list-style-type: none;
+    display: flex;
+    gap: 45px;
+    
+}
+
+.container-xl4{
+    display: flex;
+
+}
+
+.head-section a{
+    margin-left: 0px;
+    padding: 5px 5px;
+    color: #FEFEFE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about li{
+    
+    padding: 5px 10px;
+    align-items:center ;
+    background: #522258;
+    border-radius: 45px;
+    color: #FEFEFE;
+}
+
+.about h1{
+    padding: 3px 35px;
+    font-size: 30px;
+    color: #AF1740;
+
+}
+
+.about p{
+    padding: 3px 14px ;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    margin: 0px 25px;
+    padding-bottom: 20px;
+}
+
+#crafting{
+    color: #FF9A00;
+}
+
+/* Progress Bar Styles */
+
+.progress-bar{
+    background-color: #14274E;
+    box-shadow: none;
+    font-size: 15px;
+    line-height: 1.2;
+    color: #F3F1F5;
+    font-weight: 600;
+    position: relative;
+    overflow: visible;
+    border-radius: 2px;
+}
+
+.progress-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    transition: 0ms;
+}
+
+.progress-bar-container{
+    padding-left: 30px;
+    margin-right: 25px;
+}
+
