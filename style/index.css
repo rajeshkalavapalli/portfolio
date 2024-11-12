@@ -1,12 +1,13 @@
 
 .top{
    display: flex;
-   gap: 0px 120px;  
+   gap: 0px 350px;  
    background-color: #522258;
    height: 20px;
    padding-left: 240px;
    padding-bottom: 22px;
    color: #FFFF;
+   
    
    
 }
@@ -78,11 +79,16 @@ a{
 .my-img{
     display: flex;
     flex-direction: row-reverse;
+    border-radius: 50%;
+    margin-top: 15px;
+    
 }
 .hire-container{
 background-color: #FBFBFB;
 color: #522258;
 padding: 0px 85px;
+height: 550px;
+margin-top: 0px;
 
 }
 
@@ -99,7 +105,8 @@ button{
 
 .me-img{
     width: fit-content;
-    height: 90px;
+    height: 80px;
+    border-radius: 50%;
 }
 #hire{
     margin-left: 68px;
@@ -254,8 +261,8 @@ button{
 .services {
     display: flex;
     text-align: center;
-    background: #f8f8f8;
-    height: 50px;
+    
+    
    
 }
 
@@ -263,8 +270,9 @@ button{
     display: flex;
     gap: 125px;
     padding: 0px 300px;
-    margin-top: 95px;
-    background: #f8f8f8;
+    margin-top: 135px;
+    margin-top: 35px;
+    background-color: #F8f8f8;
 }
 
 .servie-text{
@@ -276,12 +284,33 @@ button{
 }
 
 .services1{
-    background-color: #FFFFFF;
-    margin-top: 35px;
     
+    margin-top: 35px;
+    background-color: #FEFEFE;
     
 }
 
 .servie-text h1{
     color: #AF1740;
+}
+
+.opentowork{
+    font-size: 35px;
+    text-align: center;
+    line-height: 0.5;
+    background-color: #F8f8f8;
+    height: 165px;
+    
+
+}
+
+.opentowork h1{
+    margin-top: 0px;
+    padding-top:30px;
+    color: #522258;
+}
+
+.opentowork span{
+    color: #AF1740;
+    line-height: 0.5px;
 }
