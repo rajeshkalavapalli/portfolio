@@ -222,3 +222,66 @@ button{
     margin-right: 25px;
 }
 
+.experience ol{
+ color: #AF1740;
+ flex-direction: row;
+}
+
+.experience  {
+    color: #AF1740;
+}
+
+.experience h3,b{
+    color: #164863;
+    text-align: justify;
+}
+
+.tag{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.tag{
+    margin-top: 35px;
+    text-align: center;
+}
+.tag h2{
+    font-size: 45px;
+    line-height: 1;
+    color: #522258;
+}
+
+.services {
+    display: flex;
+    text-align: center;
+    background: #f8f8f8;
+    height: 50px;
+   
+}
+
+.service{
+    display: flex;
+    gap: 125px;
+    padding: 0px 300px;
+    margin-top: 95px;
+    background: #f8f8f8;
+}
+
+.servie-text{
+    font-size: 18px;
+    text-align: justify;
+    width: 325px;
+    
+    
+}
+
+.services1{
+    background-color: #FFFFFF;
+    margin-top: 35px;
+    
+    
+}
+
+.servie-text h1{
+    color: #AF1740;
+}
