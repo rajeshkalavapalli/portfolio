@@ -40,3 +40,38 @@ document.addEventListener("DOMContentLoaded", function() {
 
   window.addEventListener("scroll", onScroll);
 });
+
+const texts = ["A Web Designer..." , "A Developer..." ,"I love Development...", "I Love to Deploy....", "I Love Design...."];
+let index = 0;
+let currentText = "";
+let isDeleting = false;
+let speed = 100; // Typing speed
+let deleteSpeed = 50; // Erasing speed
+let textElement = document.querySelector('.let');
+
+function typeEffect() {
+    let fullText = texts[index];
+    if (isDeleting) {
+        currentText = fullText.substring(0, currentText.length - 1); 
+    } else {
+        currentText = fullText.substring(0, currentText.length + 1); 
+    }
+    
+    textElement.textContent = currentText;
+    
+    // Type or delete based on the isDeleting flag
+    if (!isDeleting && currentText === fullText) {
+        setTimeout(() => { isDeleting = true; }, 2000); 
+    } else if (isDeleting && currentText === "") {
+        index = (index + 1) % texts.length; 
+        isDeleting = false; 
+    }
+    
+    let typingSpeed = isDeleting ? deleteSpeed : speed;
+    setTimeout(typeEffect, typingSpeed);
+}
+
+// Start typing effect when the page loads
+document.addEventListener("DOMContentLoaded", function() {
+    typeEffect();
+});
