@@ -8,8 +8,6 @@
    padding-bottom: 22px;
    color: #FFFF;
    
-   
-   
 }
 
 *hero{
@@ -238,7 +236,7 @@ button{
     font-size: 30px;
     text-align: center;
     line-height: 0.5;
-    background-color: #EEEEEE;
+    background-color: #FBFBFB;
     height: 165px;
     
 
@@ -346,10 +344,10 @@ button{
 
 .contact-wrap{
     display: flex;
-    color: #FEFEFE;
+    color: #FBFBFB;
 }
 .contact-container{
-    color: #FEFEFE;
+    color: #FBFBFB;
     margin-top: 55px;
     margin-left: 75px;
     
@@ -363,14 +361,144 @@ button{
 
 .address {
     display: flex;
-    gap: 95px;
+    gap: 75px;
+    text-align: justify;
+    
 }
 
 .contact-info{
     margin-left: 50px;
     margin-top: 45px;
+    margin-right: 45px;
+    font-size: 18px;
+    text-align: justify;
 }
 
 .address h1{
     color: #117554;
+}
+
+.full-adress p {
+color: #3C3D37;
+text-align: justify;
+}
+
+.form-group .submit-form{
+    border: 1px solid #117554;
+    margin-top: 5px;
+}
+
+.submit-form{
+    height: 35px;
+    background: #FBFBFB;
+    color: #3C3D37;
+    font-size: 15px;
+    border-radius: 3px;
+    box-shadow: none;
+    padding-left: 35px;
+}
+
+.submit-form {
+    display: block;
+    width: 490px;
+    padding: 2px 2px;
+   font-weight: 400; 
+   line-height: 2;
+   appearance: none;
+   margin-bottom: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+ #message{
+    height: 100px;
+}
+
+.button-primary{
+    padding: 10px 10px;
+    margin: 5px 2px;
+    background: #522258;
+    color: #F5F7F8;
+    border: 2px solid #3C3D37;
+    cursor: pointer;
+}
+
+.work{
+    background: #F5F7F8;
+    height: 200px;
+    
+}
+
+.work h1{
+    padding-top: 55px;
+    margin-left: 80px;
+    font-size: 29px;
+    color: #117554;
+    
+    
+}
+.work p{
+    margin-left: 130px;
+    font-size: 33px;
+    padding-left: 95px;
+    line-height: 0.5;
+    margin-top: 5px;
+    color: #F05A7E;
+    display: inline-block;
+}
+
+.work1 {
+    text-align: end;
+    margin-right: 85px;
+    /* padding-top: 7px; */
+    position: relative; 
+    top: -80px; 
+    padding: 9px 12px;
+    cursor: pointer;
+    
+    
+    
+}
+
+.work1 h2{
+    border: 1px solid #522258;
+    display: inline;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 20px 75px;
+    padding-top: 1rem;
+    color: #FBFBFB;
+    background-color: #16423C;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.services {
+    display: flex;
+    text-align: center;
+    background: #F5F7F8;
+    height: 50px;
+   
+}
+.service{
+    display: flex;
+    gap: 125px;
+    padding: 0px 300px;
+    margin-top: 95px;
+    background: #F5F7F8;
+}
+.servie-text{
+    font-size: 18px;
+    text-align: justify;
+    width: 325px;
+    background: #F5F7F8;
+    
+    
+}
+.services1{
+    background-color: #F5F7F8;
+    margin-top: 35px;
+    
+    
+}
+.servie-text h1{
+    color: #AF1740;
 }
